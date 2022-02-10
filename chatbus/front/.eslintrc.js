@@ -21,13 +21,8 @@ module.exports = {
     '@typescript-eslint',
     'jest'
   ],
-  rules: {
-    "react/jsx-uses-react": error,
-    "react/jsx-uses-vars": error,
-  },
   settings: {
     react: {
-      pragma: 'React',
       version: 'defect'
     }
   }
