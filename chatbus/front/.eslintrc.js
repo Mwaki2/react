@@ -6,7 +6,8 @@ module.exports = {
   },
   extends: [
     'plugin:react/recommended',
-    'standard'
+    'standard',
+    'prettier'
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -21,6 +22,9 @@ module.exports = {
     '@typescript-eslint',
     'jest'
   ],
+  rules: {
+    'prettier/prettier': 'error'
+  },
   settings: {
     react: {
       version: 'defect'
